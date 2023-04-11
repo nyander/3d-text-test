@@ -38,9 +38,6 @@ const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height, 0.1, 
 camera.position.x = 0
 camera.position.y = 0
 camera.position.z = 5
-gui.add(camera.position, 'x');
-gui.add(camera.position, 'y');
-gui.add(camera.position, 'z');
 
 /**
  * Object
